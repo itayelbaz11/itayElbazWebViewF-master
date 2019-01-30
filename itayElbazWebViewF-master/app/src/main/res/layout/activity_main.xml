@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/ET1"
+            android:layout_width="150px"
+            android:layout_height="100px"
+            android:ems="10"
+            android:inputType="numberSigned|numberDecimal"
+            android:hint="a"/>
+
+        <EditText
+            android:id="@+id/ET2"
+            android:layout_width="150px"
+            android:layout_height="100px"
+            android:ems="10"
+            android:inputType="numberSigned|numberDecimal"
+            android:hint="b"/>
+
+        <EditText
+            android:id="@+id/ET3"
+            android:layout_width="150px"
+            android:layout_height="100px"
+            android:ems="10"
+            android:hint="c"
+            android:inputType="numberSigned|numberDecimal" />
+
+
+    </LinearLayout>
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="600px"
+        android:id="@+id/WV">
+
+    </WebView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="300px"
+            android:layout_height="100px"
+            android:text="go to the site" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="300px"
+            android:layout_height="100px"
+            android:text="clear" />
+    </LinearLayout>
+
+
+</LinearLayout>
